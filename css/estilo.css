@@ -102,6 +102,10 @@ textarea {
     cursor: pointer;
 }
 
+.oculto {
+    display: none;
+}
+
 /* BS Icons */
 
 i {
