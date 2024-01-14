@@ -1,0 +1,160 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body */
+body {
+    font-family:monospace;
+    background-color: #d1e2ff;
+}
+
+
+
+header, footer {
+    background: linear-gradient(#1e9ebe, #2c4d9b);
+    width: 100%;
+}
+
+/* header */
+
+.logo {
+    width: 60px;
+}
+
+.tacto {
+    transition: 0.5s;
+}
+
+.tacto:hover {
+    scale: 1.15;
+}
+
+/* main */
+
+/* ubicacion */
+
+iframe {
+    width: 300px;
+    height: 300px;
+}
+
+/* info */
+
+.infoUno {
+    background: linear-gradient(#1e9ebe, #2c4d9b);
+    margin-left: 25%;
+}
+
+.infoDos {
+    background: linear-gradient(#1e9ebe, #2c4d9b);
+    margin-right: 25%;
+}
+
+.imgInfo {
+    margin-right: 20px;
+    width: auto;
+    height: 300px;
+    object-fit: contain;
+}
+
+/* carrusel */
+
+.imgCorrediza {
+    height: 82vh;
+    object-fit: cover;
+}
+
+/* contacto */
+
+.contacto {
+    background-color: #dbdbdb;
+    width: 645px;
+    height: 775px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 3px #333 solid;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+label {
+    margin-top: 5px;
+}
+
+input,
+textarea {
+    width: 580px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.botonForm {
+    background-color: #333;
+    color: #fff;
+    margin: auto;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* BS Icons */
+
+i {
+    font-size: 30px;
+}
+
+@media (max-width: 750px) {
+    .imgCorrediza {
+        height: 250px;
+    }
+}
+
+@media (max-width: 874px) {
+    .infoUno {
+        margin: 0;
+    }
+    .infoDos {
+        margin: 0;
+    }
+    .imgInfo {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 874px) {
+    .infoUno {
+        width: 100%;
+    }
+    .infoDos {
+        width: 100%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 750px) {
+    .contacto {
+        width: 450px;
+    }
+    input, textarea {
+        width: 390px;
+    }
+}
+
+@media (max-width: 499px) {
+    .contacto {
+        width: 320px;
+    }
+    input, textarea {
+        width: 240px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .ubi {
+        margin-top: 50px;
+    }
+}
