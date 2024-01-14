@@ -116,6 +116,10 @@ i {
     .imgCorrediza {
         height: 250px;
     }
+    .contacto {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
 }
 
 @media (max-width: 874px) {
@@ -154,6 +158,9 @@ i {
     }
     input, textarea, .botonForm {
         width: 240px;
+    }
+    .letraCel {
+        font-size: 12px;
     }
 }
 
